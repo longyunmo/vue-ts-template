@@ -27,6 +27,10 @@ const routes: Array<RouteRecordRaw> = [
     },
 ]
 
+
+// app.component('TodoDeleteButton', TodoDeleteButton)
+
+
 const router = createRouter({
     history: createWebHashHistory(),
     routes
