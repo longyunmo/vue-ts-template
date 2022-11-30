@@ -1,2 +1,8 @@
-.base{height: 100%;max-width: 1280px;margin: 0 auto;}
+.base{height: 100%;margin: 0 auto;}
 .el-container{height: 100%;}
+.elHeader{border-bottom: 1px solid #eee;background: #fff;padding: 0;flex-basis: 70px;}
+.handerView{width: 100vw;margin: 0 auto;}
+.elContainer{width: 100vw;display: flex;flex-direction: column;margin: 0 auto;}
+.elContainerMain{flex: 1;overflow: hidden;}
+.elAside{border-right: 1px solid #eee;height: 100%;}
+.elMain{padding: 10px;}

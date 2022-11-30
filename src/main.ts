@@ -9,6 +9,8 @@ import globalComponent from './components/index'
 import './style.css'
 import 'element-plus/dist/index.css'
 import './assets/style/index.css'
+import './assets/icon/iconfont.css'
+
 
 
 const app = createApp(App)
@@ -18,6 +20,7 @@ app.use(router)
 
 /* 挂载全局对象 */
 app.config.globalProperties.http = api;
+app.config.globalProperties.leftWidth = 180;  // 全局侧边栏宽度
 
 app.mount('#app')
 

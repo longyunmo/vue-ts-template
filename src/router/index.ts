@@ -4,6 +4,7 @@ import HomeView from '../views/home/HomeView.vue'
 import LoginView from '../views/Login.vue'
 import AdoutView from '../views/AdoutView.vue'
 
+// 静态路由
 const routes: Array<RouteRecordRaw> = [
     {
         path: '/',
@@ -26,10 +27,6 @@ const routes: Array<RouteRecordRaw> = [
         component: AdoutView
     },
 ]
-
-
-// app.component('TodoDeleteButton', TodoDeleteButton)
-
 
 const router = createRouter({
     history: createWebHashHistory(),

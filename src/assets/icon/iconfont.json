@@ -1,0 +1,37 @@
+{
+  "id": "3798972",
+  "name": "超级PDF",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "超级pdf转换",
+  "glyphs": [
+    {
+      "icon_id": "5831355",
+      "name": "pdf",
+      "font_class": "pdf",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "11810455",
+      "name": "Word",
+      "font_class": "Word",
+      "unicode": "e680",
+      "unicode_decimal": 59008
+    },
+    {
+      "icon_id": "11810458",
+      "name": "PowerPoint",
+      "font_class": "PowerPoint",
+      "unicode": "e681",
+      "unicode_decimal": 59009
+    },
+    {
+      "icon_id": "11810459",
+      "name": "Excel",
+      "font_class": "Excel",
+      "unicode": "e682",
+      "unicode_decimal": 59010
+    }
+  ]
+}

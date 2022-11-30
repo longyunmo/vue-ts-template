@@ -17,5 +17,5 @@ export default defineComponent({
             conts, onClick 
         };
     },
-}); 
-</script> 
+});
+</script>
